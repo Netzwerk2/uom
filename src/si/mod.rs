@@ -6,7 +6,6 @@
 
 #[macro_use]
 mod prefix;
-
 system! {
     /// [International System of Quantities](https://jcgm.bipm.org/vim/en/1.6.html) (ISQ).
     ///
@@ -54,6 +53,7 @@ system! {
         angular_acceleration::AngularAcceleration,
         angular_jerk::AngularJerk,
         angular_velocity::AngularVelocity,
+        angular_velocity_per_volt::AngularVelocityPerVolt,
         area::Area,
         areal_density_of_states::ArealDensityOfStates,
         areal_heat_capacity::ArealHeatCapacity,
